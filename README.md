@@ -1,2 +1,2 @@
 # Practice
-python data structures
+python practice codes
