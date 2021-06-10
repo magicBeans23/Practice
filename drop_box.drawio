@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T16:16:17.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="i-ehstO0Fvys_mT9zbbF" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T16:30:16.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="GFRucAb4HXI4t7NCnsPD" version="14.6.13" type="github">
   <diagram id="G4ZYphoTKEIYq6gut3OI" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
         <mxCell id="r0Q-pPDh2ajjUrzoxr5v-7" value="file meta db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="540" y="370" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="r0Q-pPDh2ajjUrzoxr5v-8" value="file-meta&lt;br&gt;-----------&lt;br&gt;file_id&lt;br&gt;block-ids[]&lt;br&gt;path" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="r0Q-pPDh2ajjUrzoxr5v-8" value="file-meta&lt;br&gt;-----------&lt;br&gt;file_id&lt;br&gt;block-ids[]&lt;br&gt;user-devices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="440" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="r0Q-pPDh2ajjUrzoxr5v-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="r0Q-pPDh2ajjUrzoxr5v-9" target="r0Q-pPDh2ajjUrzoxr5v-4">
@@ -236,6 +236,18 @@
         </mxCell>
         <mxCell id="r0Q-pPDh2ajjUrzoxr5v-69" value="uplader(uploads to server)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Q-pPDh2ajjUrzoxr5v-73" value="mata db - rdbms as it provides ACID properties" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Q-pPDh2ajjUrzoxr5v-74" value="S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="90" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Q-pPDh2ajjUrzoxr5v-75" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=-0.05;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r0Q-pPDh2ajjUrzoxr5v-2" target="r0Q-pPDh2ajjUrzoxr5v-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
